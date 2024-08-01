@@ -1,42 +1,43 @@
-print("Это викторина на знание кухни разных народов. Ответь на вопросы и узнай, насколькo хорошо ты разбираешься в еде!")
+print("Это викторина на знание географии. Ответь на вопросы и узнай, насколькo хорошо ты в ней разбираешься !")
 
-question1 = "Кто придумал эчпочмак?"
-question2 = "Луковый суп — это блюдо какой кухни?"
-question3 = "Где родина начос?"
-question4 = "Как называются китайские пельмени?"
-question5 = "В национальную кухню какой страны входят драники?"
-true_answer1 = "татары"
-true_answer2 = "Франция"
-true_answer3 = "Мексика"
-true_answer4 = "гёдза"
-true_answer5 = "Беларусь"
+question1 = "Какая столица франции?"
+question2 = "Какая самая длинная река в мире?"
+question3 = "Какой океан самый большой?"
+question4 = "Какое самое твердое природное вещество на Земле?"
+question5 = "В какой стране расположены древние пирамиды Гизы?"
+true_answer1 = "Париж"
+true_answer2 = "Амазонка"
+true_answer3 = "Тихий океан"
+true_answer4 = "Алмаз"
+true_answer5 = "Египет"
 score = 0
+total_score = 0
 answer1 = input(question1)
-if answer1 == "татары":
+if answer1 == "Париж":
   total_score = score + 1
 
 else:
   total_score = score + 0
 answer2 = input(question2)
-if answer2 == "Франция":
+if answer2 == "Амазонка":
   total_score = score + 1
 
 else:
   total_score = score + 0
 answer3 = input(question3)
-if answer3 == "Мексика":
+if answer3 == "Тихий океан":
   total_score = score + 1
 
 else:
   total_score = score + 0
 answer4 = input(question4)
-if answer4 == "гёдза":
+if answer4 == "Алмаз":
   total_score = score + 1
 
 else:
   total_score = score + 0
 answer5 = input(question5)
-if answer5 == "Беларусь":
+if answer5 == "Египет":
   total_score = score + 1
 
 else:
@@ -47,4 +48,4 @@ if total_score >= 3:
 else:
   print("Вы набрали не очень много баллов. Расширяйте свой кругозор, вам есть, куда стремиться")
 
-print("Ваш результат:", total_score из 5")
+print("Вы набрали", total_score, "баллов")
